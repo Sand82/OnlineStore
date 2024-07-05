@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OnlineStore\\Server\\OnlineStore.Web\\OnlineStore.Data\\OnlineStore.Data.csproj",
+      "projectUniqueName": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStore.Data.csproj",
       "projectName": "OnlineStore.Data",
-      "projectPath": "C:\\OnlineStore\\Server\\OnlineStore.Web\\OnlineStore.Data\\OnlineStore.Data.csproj",
+      "projectPath": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStore.Data.csproj",
       "packagesPath": "C:\\Users\\sando\\.nuget\\packages\\",
-      "outputPath": "C:\\OnlineStore\\Server\\OnlineStore.Web\\OnlineStore.Data\\obj\\",
+      "outputPath": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sando\\AppData\\Roaming\\NuGet\\NuGet.Config",

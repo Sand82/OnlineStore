@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yh6hPPRM+Vq0W7ESbLn54HnfEc7vB2nbK43icnpSdPBaf5fQpe6GVJ00MS0yvpM1YRLac/CCpMGu5Rwo8UA3kg==",
+  "dgSpecHash": "d9gXcGU6U3WOkNqrXAmkS+g5XU/PFfgvVOUAeREHlGNtH1PlZNz7TdGvVMV9tSUjbXQ36/F4w/RtZZDSXOOq5Q==",
   "success": true,
-  "projectFilePath": "C:\\OnlineStore\\Server\\OnlineStore.Web\\OnlineStore.Web\\OnlineStore.Web.csproj",
+  "projectFilePath": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\OnlineStore.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sando\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\sando\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
