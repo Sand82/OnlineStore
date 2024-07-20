@@ -5,6 +5,11 @@ namespace OnlineStore.Data
 {
     public class OnlineStoreDbContext : DbContext
     {
+        public OnlineStoreDbContext()
+        {
+            
+        }
+
         public OnlineStoreDbContext(DbContextOptions<OnlineStoreDbContext> options)
            : base(options)
         {}
