@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\OnlineStore\\Server\\OnlineStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\common\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\common\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\common\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\common\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\onlinestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\onlinestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D72E403D-EE86-4029-ABF9-599BE6391766}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D72E403D-EE86-4029-ABF9-599BE6391766}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Common\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data\\Common\\GenericRepository.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Common\\GenericRepository.cs",
-              "RelativeToolTip": "OnlineStore.Data\\Common\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T19:38:15.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Common\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data\\Common\\IGenericRepository.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Common\\IGenericRepository.cs",
-              "RelativeToolTip": "OnlineStore.Data\\Common\\IGenericRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T19:37:03.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OnlineStoreDbContext.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStoreDbContext.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data\\OnlineStoreDbContext.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStoreDbContext.cs",
-              "RelativeToolTip": "OnlineStore.Data\\OnlineStoreDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T17:43:03.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
               "RelativeDocumentMoniker": "OnlineStore.Web\\Program.cs",
               "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
               "RelativeToolTip": "OnlineStore.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T17:40:31.205Z",
+              "WhenOpened": "2024-07-24T17:47:54.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Test.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data\\Models\\Test.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Test.cs",
-              "RelativeToolTip": "OnlineStore.Data\\Models\\Test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Models\\Category.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Category.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T11:56:54.013Z",
+              "WhenOpened": "2024-07-24T17:14:15.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationConstants.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Constants\\ValidationConstants.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Constants\\ValidationConstants.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Constants\\ValidationConstants.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Constants\\ValidationConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:41:49.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Models\\Item.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\Item.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Models\\Item.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:38:22.03Z",
               "EditorCaption": ""
             }
           ]

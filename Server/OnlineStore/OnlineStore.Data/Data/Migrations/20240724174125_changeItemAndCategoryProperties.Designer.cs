@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnlineStore.Data;
 
@@ -10,9 +11,11 @@ using OnlineStore.Data;
 namespace OnlineStore.Data.Data.Migrations
 {
     [DbContext(typeof(OnlineStoreDbContext))]
-    partial class OnlineStoreDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240724174125_changeItemAndCategoryProperties")]
+    partial class changeItemAndCategoryProperties
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -20,21 +23,6 @@ namespace OnlineStore.Data.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("CategoryItem", b =>
-                {
-                    b.Property<int>("CategoriesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ItemsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CategoriesId", "ItemsId");
-
-                    b.HasIndex("ItemsId");
-
-                    b.ToTable("CategoryItem");
-                });
 
             modelBuilder.Entity("OnlineStore.Data.Models.Category", b =>
                 {
@@ -44,12 +32,17 @@ namespace OnlineStore.Data.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("ItemId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
 
                     b.ToTable("Categories");
                 });
@@ -88,19 +81,18 @@ namespace OnlineStore.Data.Data.Migrations
                     b.ToTable("Items");
                 });
 
-            modelBuilder.Entity("CategoryItem", b =>
+            modelBuilder.Entity("OnlineStore.Data.Models.Category", b =>
                 {
-                    b.HasOne("OnlineStore.Data.Models.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoriesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("OnlineStore.Data.Models.Item", null)
-                        .WithMany()
-                        .HasForeignKey("ItemsId")
+                        .WithMany("Categories")
+                        .HasForeignKey("ItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("OnlineStore.Data.Models.Item", b =>
+                {
+                    b.Navigation("Categories");
                 });
 #pragma warning restore 612, 618
         }
