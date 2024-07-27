@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\OnlineStore\\Server\\OnlineStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240727201731_InitialMigration.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs",
-              "RelativeToolTip": "OnlineStore.Data\\Data\\Migrations\\20240727201731_InitialMigration.cs",
-              "ViewState": "AQIAANUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:17:31.808Z",
+              "WhenOpened": "2024-07-27T20:33:40.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Web\\WeatherForecast.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\WeatherForecast.cs",
+              "RelativeToolTip": "OnlineStore.Web\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:33:35.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineStore.Web\\appsettings.json",
@@ -56,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OnlineStoreDbContext.cs",
               "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStoreDbContext.cs",
               "RelativeDocumentMoniker": "OnlineStore.Data\\OnlineStoreDbContext.cs",
@@ -69,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
               "RelativeDocumentMoniker": "OnlineStore.Web\\Program.cs",
               "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
               "RelativeToolTip": "OnlineStore.Web\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T19:17:03.503Z",
               "EditorCaption": ""
