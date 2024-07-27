@@ -10,7 +10,7 @@ namespace OnlineStore.Data
 
         public OnlineStoreDbContext(DbContextOptions<OnlineStoreDbContext> options)
            : base(options)
-        {}
+        {}        
 
         public virtual DbSet<Item> Items { get; set; }
 
@@ -18,7 +18,6 @@ namespace OnlineStore.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<Item>()
                 .Property(i => i.Price)
                 .HasColumnType("decimal(18,2)");
