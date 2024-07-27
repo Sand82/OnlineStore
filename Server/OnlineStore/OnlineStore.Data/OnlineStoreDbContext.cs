@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using OnlineStore.Data.Models;
 
 namespace OnlineStore.Data
 {
-    public class OnlineStoreDbContext : DbContext
+    public class OnlineStoreDbContext : IdentityDbContext
     {
         public OnlineStoreDbContext()
         {}
