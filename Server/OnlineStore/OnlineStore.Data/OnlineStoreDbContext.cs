@@ -17,6 +17,8 @@ namespace OnlineStore.Data
 
         public virtual DbSet<Category> Categories { get; set; }
 
+        public virtual DbSet<MainCategory> MainCategories { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Item>()

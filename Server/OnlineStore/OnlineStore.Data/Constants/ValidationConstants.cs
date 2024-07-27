@@ -21,5 +21,10 @@
         {
             public const int NameLength = 100;
         }
+
+        public static class CategoryMainConstant
+        {
+            public const int NameLength = 50;
+        }
     }
 }

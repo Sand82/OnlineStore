@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\OnlineStore\\Server\\OnlineStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\models\\maincategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\models\\maincategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.data\\onlinestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34AC9AF-CB7D-43D5-AFAC-A6BB8B572236}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\onlinestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|c:\\onlinestore\\server\\onlinestore\\onlinestore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68DC97C5-6C96-4DBB-841E-FECD2B56A616}|OnlineStore.Web\\OnlineStore.Web.csproj|solutionrelative:onlinestore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "OnlineStore.Web\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:33:40.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Web\\WeatherForecast.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\WeatherForecast.cs",
-              "RelativeToolTip": "OnlineStore.Web\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:33:35.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "OnlineStore.Web\\appsettings.json",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\appsettings.json",
-              "RelativeToolTip": "OnlineStore.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-27T20:02:54.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OnlineStoreDbContext.cs",
               "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStoreDbContext.cs",
               "RelativeDocumentMoniker": "OnlineStore.Data\\OnlineStoreDbContext.cs",
               "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\OnlineStoreDbContext.cs",
               "RelativeToolTip": "OnlineStore.Data\\OnlineStoreDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:45:20.788Z",
+              "WhenOpened": "2024-07-27T21:05:55.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Web\\Program.cs",
-              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Web\\Program.cs",
-              "RelativeToolTip": "OnlineStore.Web\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAjAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainCategory.cs",
+              "DocumentMoniker": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\MainCategory.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Models\\MainCategory.cs",
+              "ToolTip": "C:\\OnlineStore\\Server\\OnlineStore\\OnlineStore.Data\\Models\\MainCategory.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Models\\MainCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:17:03.503Z",
+              "WhenOpened": "2024-07-27T20:43:08.974Z",
               "EditorCaption": ""
             }
           ]
