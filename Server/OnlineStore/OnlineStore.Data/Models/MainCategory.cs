@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 using static OnlineStore.Data.Constants.ValidationConstants.ItemConstant;
 
 namespace OnlineStore.Data.Models
