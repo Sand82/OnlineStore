@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using static OnlineStore.Data.Constants.ValidationConstants.CategoryConstant;
 
-namespace OnlineStore.Data.Models
+using static OnlineStore.Domain.Constants.ValidationConstants.CategoryConstant;
+
+namespace OnlineStore.Domain.Models
 {
     public class Category
     {

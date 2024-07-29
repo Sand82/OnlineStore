@@ -1,4 +1,4 @@
-﻿namespace OnlineStore.Data.Constants
+﻿namespace OnlineStore.Domain.Constants
 {
     public static class ValidationConstants
     {

@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-using static OnlineStore.Data.Constants.ValidationConstants.ItemConstant;
+using static OnlineStore.Domain.Constants.ValidationConstants.ItemConstant;
 
-namespace OnlineStore.Data.Models
+namespace OnlineStore.Domain.Models
 {
     public class MainCategory
     {

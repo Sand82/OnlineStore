@@ -24,4 +24,8 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineStore.Domain\OnlineStore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
