@@ -14,8 +14,8 @@ namespace OnlineStore.Domain.Repositories
 
         Task AddRangeAsync(IEnumerable<T> entities);
 
-        Task RemoveAsync(int id);
+        void Remove(T entity);
 
-        Task RemoveRangeAsync(IEnumerable<T> entities);
+        void RemoveRange(IEnumerable<T> entities);
     }
 }

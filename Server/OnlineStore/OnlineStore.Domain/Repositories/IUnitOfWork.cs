@@ -4,12 +4,12 @@ namespace OnlineStore.Domain.Repositories
 {
     public interface IUnitOfWork : IDisposable
     {
-        IItemRepository ItemRepository { get; }
+        IItemRepository Item { get; }
 
-        ICategoryRepository CategoryRepository { get; }
+        ICategoryRepository Category { get; }
 
-        IMainCategoryRepository MainCategoryRepository { get; }
+        IMainCategoryRepository MainCategory { get; }
 
-        Task<int> SaveChangesAsync();
+        Task<int> SaveChangesAsync();        
     }
 }

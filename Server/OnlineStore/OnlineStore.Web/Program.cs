@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using OnlineStore.Data;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using OnlineStore.Domain.Repositories;
+using OnlineStore.Data.Implementation.Main;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +32,8 @@ builder.Services.AddDbContext<OnlineStoreDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 //Add Authentication
 builder.Services.AddAuthorization();
