@@ -9,7 +9,7 @@
             public const int CodeMinValue = 3;
             public const int CodeMaxValue = 7;
 
-            public const int DescriptionMaxLength = 1000;
+            public const int DescriptionMaxLength = 65535;
 
             public const string PriceMaxValue = "79228162514264337593543950335";
             public const string PriceMinValue = "0";
