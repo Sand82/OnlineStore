@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3.8rem;
+  height: 100%;
+
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #e7f5ff;
+
+  padding: 1.6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoIcon {
+  font-size: 3.8rem;
+  color: #1864ab;
+}
+
+.menu > li,
+.menu > a {
+  display: inline-block;
+  margin-left: 2.4rem;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a:link,
+.menu a:visited {
+  text-decoration: none;
+  color: #1864ab;
+  display: block;
+  font-size: 2rem;
+  padding: 1.6rem 6.4rem;
+
+  transition: all, 0.22s;
+}
+
+.menu a:hover {
+  background-color: #d0ebff;
+  color: #1864ab;
+}
+
+.submenu {
+  position: absolute;
+  background-color: #e7f5ff;
+  left: 0;
+  display: none;
+}
+
+.menu li:hover > .submenu {
+  display: block;
+  animation: slideup 0.7s ease;
+}
+
+.searchMenu {
+  width: 20%;
+  background-color: #fff;
+  height: 2.4rem;
+  border-radius: 5px;
+  border: 1px solid #1864ab;
+}
+
+.submenu .test:link {
+  font-size: 1.6rem;
+}
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideleft {
+  0% {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
