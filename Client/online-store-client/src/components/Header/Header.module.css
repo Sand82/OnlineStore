@@ -57,8 +57,9 @@ nav {
 }
 
 .menu li:hover > .submenu {
-  display: block;
+  display: inline-block;
   animation: slideup 0.7s ease;
+  width: 20vw;
 }
 
 .searchMenu {
@@ -71,12 +72,13 @@ nav {
 
 .submenu .test:link {
   font-size: 1.6rem;
+  width: 100%;
 }
 
 @keyframes slideup {
   0% {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(20px);
   }
 
   100% {
@@ -88,7 +90,7 @@ nav {
 @keyframes slideleft {
   0% {
     opacity: 0;
-    transform: translateX(18px);
+    transform: translateX(20px);
   }
 
   100% {

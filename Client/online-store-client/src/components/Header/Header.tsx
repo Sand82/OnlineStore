@@ -26,6 +26,10 @@ const Header = () => {
                         <li>
                             <a className={style.test} href="#">Drils</a>
                         </li>
+                        <li>
+                            <a className={style.test} href="#">Veryyyyyyyy long description</a>
+                        </li>
+                        
                     </ul>
                 </li>
                 <li>
@@ -39,7 +43,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a className={style.test} href="#">Contact as</a>
-                        </li>
+                        </li>                        
                     </ul>
                 </li>                
             </ul>            
