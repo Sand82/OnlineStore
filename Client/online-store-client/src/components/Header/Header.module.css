@@ -7,7 +7,7 @@ header {
 
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #e7f5ff;
+  background-color: rgb(229, 244, 255);
 
   padding: 1.6rem;
 }
@@ -20,7 +20,7 @@ nav {
 
 .logoIcon {
   font-size: 3.8rem;
-  color: #1864ab;
+  color: rgb(24, 100, 171);
 }
 
 .menu > li,
@@ -59,7 +59,8 @@ nav {
 .menu li:hover > .submenu {
   display: inline-block;
   animation: slideup 0.7s ease;
-  width: 20vw;
+  width: 25vw;
+  z-index: 2;
 }
 
 .searchMenu {
